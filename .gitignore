@@ -1,0 +1,67 @@
+# ✅ Оставляем только .py, .txt, .md
+
+# ❌ Удаляем все Excel, CSV, JSON, ZIP, данные
+*.xlsx
+*.xls
+*.csv
+*.json
+*.jsonl
+*.zip
+*.7z
+*.tar
+*.rar
+
+# ❌ Удаляем scrapy-выходы и scrapy config
+output.json
+output.jsonl
+scrapy.cfg
+
+# ❌ Кэш и мусор Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# ❌ Кэш pytest
+.cache/
+.pytest_cache/
+
+# ❌ MacOS мусор
+.DS_Store
+.Trashes
+.Spotlight-V100
+.DocumentRevisions-V100
+.AppleDouble
+.LSOverride
+.fseventsd
+.TemporaryItems
+.apdisk
+
+# ❌ Логи и временные файлы
+*.log
+*.bak
+*.swp
+*.tmp
+
+# ❌ Файлы ошибок, дампы
+errors*
+fail*
+domains_*
+*_done*
+*problem*
+
+# ❌ Все архивы и вложения в 'folders' и подобном
+folders/
+priority_skraper/
+scraper_of_auctions/
+
+# ❌ Временные файлы IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# ❌ Исключаем окружения
+.venv/
+env/
+venv/
