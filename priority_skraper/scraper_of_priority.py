@@ -8,10 +8,10 @@ import random
 import re
 
 # --- Конфигурация ---
-USERNAME = "info@sf2media.com"
-PASSWORD = "qetdiw-gopxEq-2hyqbo"
-DOMAIN_GROUP_NAME = "SF2 (NO NEW PAGES)"
-LOGIN_URL = "https://panel.priorityprospect.com/auth/login"
+USERNAME = ""
+PASSWORD = ""
+DOMAIN_GROUP_NAME = ""
+LOGIN_URL = ""
 
 # --- Генерация безопасного имени файла ---
 safe_name = re.sub(r'[^a-zA-Z0-9_]', '_', DOMAIN_GROUP_NAME)
